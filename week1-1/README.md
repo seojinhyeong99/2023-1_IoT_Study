@@ -19,7 +19,6 @@ __IoT의 사전적 의미__ <br>
 3. 그렇게 만들어진 임베디드 시스템이 인터넷을 통하여 정보를 주고 받고 통신을 할 수 있도록 **통신**과 **서버**에 대해 공부해볼 것이다.
 4. 마지막으로, AOS나 web Front를 통하여 임베디드 시스템을 UI를 활용하여 제어하는 등의 방식으로 접근성을 높여볼 것이다.
 <br>
-<br>
 
 ### 그렇다면 1주차에는 무엇을 배울 것인가!
 1. Server에 대해 공부하기 위해 JavaScript에 익숙해지는 시간을 갖고, JavaScript의 런타임 환경인 Node.js에 대해 공부해볼 것이다.
@@ -32,5 +31,5 @@ __IoT의 사전적 의미__ <br>
 <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/1">Issue 1</a>
 
 ### 1주차 강의 자료 - JavaScript 기초 강좌
-해당 영상을 통해서 JavaScript의 문법을 익혀본다.
+해당 영상을 통해서 JavaScript의 문법을 익혀본다. <br>
 <a href="https://www.youtube.com/watch?v=KF6t61yuPCY">강의 링크</a>
