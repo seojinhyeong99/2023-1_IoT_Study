@@ -43,6 +43,8 @@
 3. 단, Pull Request를 걸때, #1과 같이 과제 번호와 연결한다.
 <img src="./src/pullrequest2.png">
 
+---
+
 ### 온라인 질문 방법
 스터디 시간 이외에 하고 싶은 질문이 있다면 Issue를 통하여 질문을 올려주시면 됩니다! <br>
 그리고 이런 방법을 사용하는 이유는 OpenSource Software에 기여할 때나 프로젝트를 진행할때 GitHub를 사용할텐데, GitHub의 기능을 좀 더 원활하게 하기 위함입니다.
