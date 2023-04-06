@@ -28,7 +28,7 @@
 - 장소 : 국민대학교 미래관 445호
 - 주제 : `1. Server - Node.js와 EXPRESS.JS 입문`
 - 강의 자료 : <a href="./week2-1"> 링크 </a>
-- 과제 제출 : <a href=""> 링크 </a>
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/4"> 링크 </a> 
 
 ## 과제 제출 - GitHub
 
