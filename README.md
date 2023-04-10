@@ -65,6 +65,8 @@
 6. 만약 문제가 해결됐으면, `질문 해결됐습니다`와 같은 comment와 함께 close with comment 버튼을 눌러주시면 됩니다.<br>
 <img src="./src/closeissue.png">
 
+## mosquitto 설정
+
 ### 라즈베리파이(우분투) 환경에서 mosquitto 설치
 1. 시스템 업데이트
 ```
@@ -121,3 +123,21 @@ mosquitto_sub -d -t hello/world
 mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
 ```
 위처럼 테스트를 해보고 mosquitto 서버 부분(-h 옵션 사용)에 라즈베리파이 ip주소를 적어주시면 통신이 됩니다.
+
+### 맥 환경에서 mosquitto 설치
+모스키토 설치
+```
+$ brew install mosquitto
+```
+모스키토 서비스 실행
+```
+$ brew services start mosquitto
+```
+모스키토 서비스 중지
+```
+$ brew services stop mosquitto
+```
+비서비스 실행
+```
+$ /usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+```
