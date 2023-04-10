@@ -10,7 +10,7 @@
 - 장소 : 국민대학교 미래관 445호
 - 주제 : `1. Server - JavaScript에 대한 이해`
 - 강의 자료 : <a href="./week1"> 링크 </a>
-- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/2"> 링크 </a> 
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/1"> 링크 </a> 
 
 ### 2주차
 - 날짜 : 2023-04-11 18:30 ~ 21:00
