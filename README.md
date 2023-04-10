@@ -64,3 +64,60 @@
 
 6. 만약 문제가 해결됐으면, `질문 해결됐습니다`와 같은 comment와 함께 close with comment 버튼을 눌러주시면 됩니다.<br>
 <img src="./src/closeissue.png">
+
+### 라즈베리파이(우분투) 환경에서 mosquitto 설치
+1. 시스템 업데이트
+```
+$ sudo apt-get upgrade
+$ sudo apt-get update
+```
+2. 모스키토 설치
+```
+$ sudo apt-get install mosquitto
+$ sudo apt-get install mosquitto-clients
+```
+3. 설정파일 수정
+```
+sudo vi /etc/mosquitto/mosquitto.conf
+```
+```
+# Place your local configuration in /etc/mosquitto/conf.d/
+
+#
+
+# A full description of the configuration file is at
+
+# /usr/share/doc/mosquitto/examples/mosquitto.conf.example
+
+pid_file /var/run/mosquitto.pid
+
+persistence true
+
+persistence_location /var/lib/mosquitto/
+
+log_dest topic
+
+log_type error
+
+log_type warning
+
+log_type notice
+
+log_type information
+
+connection_messages true
+
+log_timestamp true
+
+include_dir /etc/mosquitto/conf.d
+```
+4. 서버동작 시작
+```
+sudo /etc/init.d/mosquitto start
+```
+5. 두개의 터미널로 통신 테스트
+```
+mosquitto_sub -d -t hello/world
+mosquitto_pub -d -t hello/world -m "Hello from Terminal window 2!"
+```
+위처럼 테스트를 해보고 mosquitto 서버 부분(-h 옵션 사용)에 라즈베리파이 ip주소를 적어주시면 통신이 됩니다.
