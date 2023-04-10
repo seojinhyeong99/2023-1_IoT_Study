@@ -10,12 +10,14 @@
 - 장소 : 국민대학교 미래관 445호
 - 주제 : `1. Server - JavaScript에 대한 이해`
 - 강의 자료 : <a href="./week1"> 링크 </a>
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/2"> 링크 </a> 
 
 ### 2주차
 - 날짜 : 2023-04-11 18:30 ~ 21:00
 - 장소 : 국민대학교 미래관 445호
 - 주제 : `2. Embedded System - Raspberry Pi & MQTT Protocol`
 - 강의 자료 : <a href="./week2-2"> 링크 </a>
+- 과제 제출 : <a href="https://github.com/kmu-koss/2023-1_IoT_Study/issues/5"> 링크 </a>
 
 ## 모각코 진도
 모각코에서는 모각코 조끼리 모여서 자료들을 보면서 공부하며, 과제를 수행하는 방식으로 스터디와 함께 병행됩니다.
