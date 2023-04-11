@@ -151,7 +151,7 @@ Content-Length: 29
 
 <br><br>
 
-## 미리 보는 과제(~4/18)
+## 미리 보는 과제(~5/2)
 Raspberry Pi에 MQTT Broker를 올리고, MQTT Broker에다가 `/dust` Topic에 `{ team: "모각코 7조", value: 48 }`를 보내면 Express에서 해당 데이터를 받아서, MongoDB에 데이터를 Insert 하게 구현해주시면 됩니다!<br>
 
 아래의 System Architecture를 참고하여 만들어주세요! 
